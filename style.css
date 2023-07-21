@@ -1,0 +1,63 @@
+/* Reset some default styles to achieve consistent appearance */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set the font color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: #fff; /* Set link font color */
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Set a background color on hover */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set the font color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Container styles (for content section) */
+  .container {
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+  }
+  
+  /* Additional styles (you can modify or add more as needed) */
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #555;
+    color: #fff;
+  }
+  
